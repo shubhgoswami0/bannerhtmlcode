@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    
+  }
+  .header{
+    min-height: 100vh;
+    width:100%;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+.services {
+    background: #f9f9f9;
+    padding: 200px 50px;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .service-items {
+    display: grid;
+     grid-template-columns: repeat(3, 1fr); 
+     gap: 150px;
+
+     
+    
+  }
+  
+  .service-item {
+    
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color:#fff;
+  }
+  
+  .service-item h3 {
+    margin: 10px 0;
+    font-size: 22px;
+  }
+  .class .cl{
+    display: grid;
+     grid-template-columns: repeat(3, 1fr); 
+     gap: 20px;
+    
+  }
+  
